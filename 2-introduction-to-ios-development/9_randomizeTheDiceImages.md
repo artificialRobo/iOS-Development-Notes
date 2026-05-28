@@ -1,6 +1,6 @@
-## Notes: Randomization of images in the Dicee app
+# Notes: Randomization of images in the Dicee app
 
-### 1. Removing Unnecessary Code
+## 1. Removing Unnecessary Code
 
 * The app no longer needs code inside `viewDidLoad`.
 * Since nothing happens when the view loads, that block can be deleted.
