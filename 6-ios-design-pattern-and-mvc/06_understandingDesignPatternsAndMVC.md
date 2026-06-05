@@ -10,6 +10,8 @@
   * More prone to errors.
 * A good test of code quality: **Would you still understand the code after not seeing it for 3 months?**
 
+---
+
 ### What Is a Design Pattern?
 
 * A **design pattern** is a **proven solution to a common problem** in software development.
@@ -20,11 +22,15 @@
   * Improve structure.
   * Make applications easier to maintain and scale.
 
+---
+
 ### Understanding Complexity
 
 * Managing a simple project is easy, but larger projects become difficult without organization.
 * Adding more code alone does not solve complexity.
 * Just as businesses use organizational charts, software needs a clear structure where each component has a specific responsibility.
+
+---
 
 ### Different Design Patterns
 
@@ -35,6 +41,8 @@
   * The app's requirements.
   * Developer preferences.
   * Desired balance between readability, simplicity, and maintainability.
+
+---
 
 ### MVC (Model–View–Controller)
 
@@ -65,6 +73,8 @@ Acts as the mediator between Model and View.
 * Processes the Model's response.
 * Updates the View with relevant information.
 
+---
+
 ### MVC Workflow
 
 <p align="center">
@@ -77,6 +87,8 @@ Acts as the mediator between Model and View.
 4. Model processes data and returns results.
 5. Controller updates the View.
 6. **Model and View never communicate directly**—all communication goes through the Controller.
+
+---
 
 ### Benefits of MVC
 
@@ -99,6 +111,8 @@ With MVC:
 * Mostly the **Model** needs to change (data and logic).
 * The **View** and **Controller** can often remain unchanged.
 * This saves time and reduces development effort.
+
+---
 
 ### Key Takeaway
 
