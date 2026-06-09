@@ -12,7 +12,7 @@ Enhance the BMI Calculator app by:
 
 ---
 
-# 1. Handling Optional BMI Values
+## 1. Handling Optional BMI Values
 
 The `bmi` property was changed from a normal value to an **optional**.
 
@@ -50,7 +50,7 @@ return String(format: "%.1f", bmi ?? 0.0)
 
 ---
 
-# 2. Creating a BMI Model (MVC Pattern)
+## 2. Creating a BMI Model (MVC Pattern)
 
 Instead of storing only a BMI number, create a dedicated model that stores:
 
@@ -78,7 +78,7 @@ import UIKit
 
 ---
 
-# 3. Updating CalculatorBrain
+## 3. Updating CalculatorBrain
 
 Change:
 
@@ -96,7 +96,7 @@ BMI now stores an entire BMI object instead of just a number.
 
 ---
 
-# 4. Accessing Values with Optional Chaining
+## 4. Accessing Values with Optional Chaining
 
 Since `bmi` is optional:
 
@@ -117,7 +117,7 @@ String(format: "%.1f", bmi?.value ?? 0.0)
 
 ---
 
-# 5. Creating BMI Categories
+## 5. Creating BMI Categories
 
 Calculate BMI:
 
@@ -147,7 +147,7 @@ else
 
 ---
 
-# 6. Creating BMI Objects Based on Category
+## 6. Creating BMI Objects Based on Category
 
 ### Underweight
 
@@ -181,7 +181,7 @@ bmi = BMI(
 
 ---
 
-# 7. Using Color Literals
+## 7. Using Color Literals
 
 Instead of:
 
@@ -203,7 +203,7 @@ Benefits:
 
 ---
 
-# 8. Passing Data Between View Controllers
+## 8. Passing Data Between View Controllers
 
 In `CalculateViewController`:
 
@@ -214,7 +214,7 @@ destinationVC.color = calculatorBrain.getColor()
 
 ---
 
-# 9. Adding Properties to ResultViewController
+## 9. Adding Properties to ResultViewController
 
 ### Advice
 
@@ -232,7 +232,7 @@ These are optional because values are assigned after the view controller is crea
 
 ---
 
-# 10. Creating Getter Functions
+## 10. Creating Getter Functions
 
 ### Get Advice
 
@@ -260,7 +260,7 @@ If `bmi` is nil:
 
 ---
 
-# 11. Displaying Data in ResultViewController
+## 11. Displaying Data in ResultViewController
 
 Inside `viewDidLoad()`:
 
@@ -280,7 +280,7 @@ No unwrapping needed because UILabel's `text` property accepts an optional strin
 
 ---
 
-# 12. Changing Background Color
+## 12. Changing Background Color
 
 Every `UIViewController` has a built-in `view` property.
 
@@ -294,7 +294,7 @@ This updates the entire screen color according to the BMI category.
 
 ---
 
-# Key Concepts Learned
+## Key Concepts Learned
 
 ### MVC Design Pattern
 
@@ -324,7 +324,7 @@ This updates the entire screen color according to the BMI category.
 
 ---
 
-# Final App Behavior
+## Final App Behavior
 
 | BMI Category        | Advice           | Background Color |
 | ------------------- | ---------------- | ---------------- |
