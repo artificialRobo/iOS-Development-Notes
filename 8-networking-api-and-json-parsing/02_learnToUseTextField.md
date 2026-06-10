@@ -40,7 +40,7 @@ You can customize how the keyboard behaves:
 
 <p align="center">
     <img src="assets/textField.png" width="auto" style="border-radius: 1%">
-</p
+</p>
 
 ---
 

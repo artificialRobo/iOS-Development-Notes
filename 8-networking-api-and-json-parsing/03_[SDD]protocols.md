@@ -4,7 +4,7 @@
 
 <p align="center">
     <img src="assets/protocols.png" width="auto" style="border-radius: 1%">
-</p
+</p>
 
 A **protocol** in Swift is like a **certificate or qualification** that defines a set of requirements.
 
