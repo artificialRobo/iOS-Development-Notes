@@ -22,6 +22,10 @@
 
 ### Live Preview Canvas
 
+<p align="center">
+  <img src="assets/swiftUIXcode.png" alt="SwiftUI Interface in Xcode">
+</p>
+
 * UI updates instantly as code or components are modified.
 * Makes designing and testing interfaces much faster.
 
