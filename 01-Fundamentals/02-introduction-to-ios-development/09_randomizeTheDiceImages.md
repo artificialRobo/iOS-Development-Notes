@@ -241,7 +241,7 @@ diceArray.randomElement()
 
 ---
 
-## 13. Key Concepts Learned
+## Key Concepts Learned
 
 * Refactoring code
 * Random number generation
@@ -254,7 +254,7 @@ diceArray.randomElement()
 
 ---
 
-## 14. Main Takeaway
+## Main Takeaway
 
 The dice app was improved by:
 

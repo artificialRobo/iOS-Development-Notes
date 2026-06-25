@@ -1,6 +1,6 @@
 # Swift Deep Dive Notes: Naming Conventions, Commenting, and String Interpolation
 
-## Purpose of Swift Deep Dives
+### Purpose of Swift Deep Dives
 
 * Provides deeper explanations of Swift concepts covered earlier.
 * Helps beginners better understand programming fundamentals.
@@ -11,9 +11,9 @@
 
 ---
 
-# 1. Naming Conventions
+## 1. Naming Conventions
 
-## Camel Case (Used in Swift)
+### Camel Case (Used in Swift)
 
 * Starts with a lowercase letter.
 * Every new word begins with a capital letter.
@@ -25,9 +25,9 @@ myButtonOutlet
 calculateTotalScore
 ```
 
-## Other Naming Styles
+### Other Naming Styles
 
-### Kebab Case
+#### Kebab Case
 
 * All lowercase words separated by dashes (`-`)
 * Common in web development
@@ -38,7 +38,7 @@ Example:
 my-file-name
 ```
 
-### Snake Case
+#### Snake Case
 
 * Words separated by underscores (`_`)
 
@@ -48,7 +48,7 @@ Example:
 my_file_name
 ```
 
-## Swift Standard
+### Swift Standard
 
 * Swift primarily uses **camelCase**
 * Use camelCase when naming:
@@ -60,9 +60,9 @@ my_file_name
 
 ---
 
-# 2. Comments in Swift
+## 2. Comments in Swift
 
-## Single-Line Comments
+### Single-Line Comments
 
 Use:
 
@@ -70,7 +70,7 @@ Use:
 // This is a comment
 ```
 
-### Purpose
+#### Purpose
 
 * Explain code
 * Disable code temporarily
@@ -115,7 +115,7 @@ Everything inside is treated as a comment.
 
 # 3. Swift Playgrounds
 
-## Creating a Playground
+### Creating a Playground
 
 Steps:
 
@@ -123,13 +123,13 @@ Steps:
 2. Choose blank iOS template
 3. Save and open
 
-## Important Playground Areas
+### Important Playground Areas
 
 * **Code Editor** → where code is written
 * **Interpreter Area** → shows intermediate results
 * **Debug Console** → displays output/errors
 
-## Helpful Setting
+### Helpful Setting
 
 Enable:
 
@@ -141,9 +141,9 @@ This runs code instantly as you type.
 
 ---
 
-# 4. Print Statements
+## 4. Print Statements
 
-## Basic Syntax
+### Basic Syntax
 
 ```swift
 print("Hello World")
@@ -153,9 +153,9 @@ print("Hello World")
 
 ---
 
-# 5. Strings
+## 5. Strings
 
-## Definition
+### Definition
 
 * Text in programming is called a **String**
 * A string is a sequence of characters.
@@ -168,13 +168,13 @@ Example:
 
 ---
 
-# 6. String Interpolation
+## 6. String Interpolation
 
-## Purpose
+### Purpose
 
 Insert code or variables inside strings.
 
-## Syntax
+### Syntax
 
 ```swift
 \(code)
@@ -214,7 +214,7 @@ The result of 5 + 3 = 8
 
 ---
 
-# Key Takeaways
+## Key Takeaways
 
 * Swift uses **camelCase** naming.
 * `//` creates single-line comments.

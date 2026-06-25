@@ -62,9 +62,9 @@ a = 5 // Error
 
 ---
 
-# 2. Basic Data Types in Swift
+## 2. Basic Data Types in Swift
 
-## String
+### String
 
 * A sequence of characters (text)
 
@@ -76,7 +76,7 @@ let name = "Angela"
 
 ---
 
-## Int (Integer)
+### Int (Integer)
 
 * Whole numbers
 * No decimal points
@@ -93,7 +93,7 @@ Examples:
 
 ---
 
-## Float
+### Float
 
 * Decimal numbers
 * Less precision
@@ -104,7 +104,7 @@ let height = 5.8
 
 ---
 
-## Double
+### Double
 
 * Decimal numbers with greater precision
 * More accurate than `Float`
@@ -115,7 +115,7 @@ let pi = 3.1415926535
 
 ---
 
-## Bool (Boolean)
+### Bool (Boolean)
 
 * Only two values:
 
@@ -130,9 +130,9 @@ Used for conditions and decision-making.
 
 ---
 
-# 3. Randomization in Swift
+## 3. Randomization in Swift
 
-## Random Integers
+### Random Integers
 
 ```swift
 let randomNumber = Int.random(in: 1...3)
@@ -149,9 +149,9 @@ Possible outputs:
 
 ---
 
-# 4. Range Operators
+## 4. Range Operators
 
-## Closed Range (`...`)
+### Closed Range (`...`)
 
 Includes upper bound.
 
@@ -165,9 +165,7 @@ Possible values:
 * 2
 * 3
 
----
-
-## Half-Open Range (`..<`)
+### Half-Open Range (`..<`)
 
 Excludes upper bound.
 
@@ -183,7 +181,7 @@ Possible values:
 
 ---
 
-# 5. Random Floating Numbers
+## 5. Random Floating Numbers
 
 ```swift
 let randomFloat = Float.random(in: 1...3)
@@ -197,9 +195,9 @@ let randomFloat = Float.random(in: 1...3)
 
 ---
 
-# 6. Arrays and Random Elements
+## 6. Arrays and Random Elements
 
-## Random Element from Array
+### Random Element from Array
 
 ```swift
 array.randomElement()
@@ -209,7 +207,7 @@ array.randomElement()
 
 ---
 
-## Shuffle Array
+### Shuffle Array
 
 ```swift
 array.shuffle()
@@ -219,7 +217,7 @@ array.shuffle()
 
 ---
 
-# 7. String Concatenation
+## 7. String Concatenation
 
 * Combining strings using `+`
 
@@ -237,7 +235,7 @@ This process is called **concatenation**.
 
 ---
 
-# 8. Password Generator Challenge
+## 8. Password Generator Challenge
 
 ### Goal
 
@@ -265,7 +263,7 @@ Possible password:
 
 ---
 
-# Key Takeaways
+## Key Takeaways
 
 * `let` = constant (unchangeable)
 * `var` = variable (changeable)

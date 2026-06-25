@@ -1,6 +1,6 @@
-## Notes: Cloning an Xcode Project from GitHub
+# Notes: Cloning an Xcode Project from GitHub
 
-### What is GitHub?
+## What is GitHub?
 
 * GitHub is a popular platform where developers:
 
@@ -31,7 +31,6 @@
 * Click **Dicee Starting Project**.
 * This opens the project repository on GitHub.
 
----
 
 ### Step 2: Copy the Repository Link
 
@@ -42,7 +41,6 @@
   * The repository URL is different from the webpage URL.
   * The copied link is specifically for cloning the project.
 
----
 
 ### Step 3: Open Xcode
 
@@ -56,7 +54,6 @@ You can access cloning from:
 
 Both options do the same thing.
 
----
 
 ### Step 4: Clone the Repository
 

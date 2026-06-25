@@ -160,7 +160,7 @@ Final result:
 
 ---
 
-# Key Takeaways
+## Key Takeaways
 
 * Variables store data with labels.
 * `var` creates a variable in Swift.

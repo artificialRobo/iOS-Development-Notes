@@ -9,7 +9,7 @@
 
 ---
 
-# 2. Important Files in an Xcode Project
+## 2. Important Files in an Xcode Project
 
 ### `Main.storyboard`
 
@@ -25,7 +25,7 @@ These two files are separate, so we need a way to connect them.
 
 ---
 
-# 3. Assistant Editor
+## 3. Assistant Editor
 
 * Open `Main.storyboard`
 * Click the editor options button (top-right)
@@ -38,9 +38,9 @@ This shows:
 
 ---
 
-# 4. IB Outlet (Interface Builder Outlet)
+## 4. IB Outlet (Interface Builder Outlet)
 
-## Purpose
+### Purpose
 
 An **IBOutlet** creates a connection between:
 
@@ -51,7 +51,7 @@ This lets us modify UI elements through code.
 
 ---
 
-## Creating an IBOutlet
+### Creating an IBOutlet
 
 Steps:
 
@@ -70,7 +70,7 @@ Example:
 
 ---
 
-# 5. Camel Case Naming Convention
+## 5. Camel Case Naming Convention
 
 Used for naming variables in programming.
 
@@ -92,9 +92,9 @@ Benefits:
 
 ---
 
-# 6. IBOutlet Errors & App Crashes
+## 6. IBOutlet Errors & App Crashes
 
-## Common Beginner Error
+### Common Beginner Error
 
 Renaming an IBOutlet manually in code can break the connection.
 
@@ -122,24 +122,20 @@ or:
 not key value coding-compliant
 ```
 
----
-
-## Why It Happens
+### Why It Happens
 
 * Storyboard still stores the old IBOutlet name internally
 * Code and storyboard become mismatched
 
----
+### Fixing the Problem
 
-## Fixing the Problem
-
-### Option 1: Delete Broken Connection
+#### Option 1: Delete Broken Connection
 
 * Right-click the UI element
 * Remove the broken outlet connection
 * Reconnect it
 
-### Option 2 (Best Method): Refactor Rename
+#### Option 2 (Best Method): Refactor Rename
 
 Use:
 
@@ -151,7 +147,7 @@ This safely renames the outlet everywhere.
 
 ---
 
-# 7. Understanding `viewDidLoad()`
+## 7. Understanding `viewDidLoad()`
 
 ```swift
 override func viewDidLoad() {
@@ -159,7 +155,7 @@ override func viewDidLoad() {
 }
 ```
 
-## Purpose
+### Purpose
 
 * Runs when the screen/view loads for the first time
 * Used to set up UI or initial values
@@ -168,7 +164,7 @@ Everything inside `{ }` is called a **block of code**.
 
 ---
 
-# 8. Blocks of Code
+## 8. Blocks of Code
 
 A block of code:
 
@@ -192,9 +188,9 @@ Helpful Xcode features:
 
 ---
 
-# 9. Changing UI Properties with Code
+## 9. Changing UI Properties with Code
 
-## Basic Syntax
+### Basic Syntax
 
 ```swift
 Who.What = Value
@@ -214,7 +210,7 @@ Breakdown:
 
 ---
 
-# 10. Dot Notation
+## 10. Dot Notation
 
 Used to access properties or functions of an object.
 
@@ -228,9 +224,9 @@ After typing a dot (`.`), Xcode shows available properties.
 
 ---
 
-# 11. Image Literals
+## 11. Image Literals
 
-## Purpose
+### Purpose
 
 Lets you visually select an image asset.
 
@@ -247,7 +243,7 @@ Benefits:
 
 ---
 
-# 12. Autocomplete in Xcode
+## 12. Autocomplete in Xcode
 
 Xcode suggests code automatically while typing.
 
@@ -269,9 +265,9 @@ Meaning:
 
 ---
 
-# 13. Changing Other Properties (Alpha Example)
+## 13. Changing Other Properties (Alpha Example)
 
-## Alpha Property
+### Alpha Property
 
 Controls transparency:
 
@@ -288,7 +284,7 @@ This makes the image 50% transparent.
 
 ---
 
-# 14. Creating a Second IBOutlet
+## 14. Creating a Second IBOutlet
 
 Example:
 
@@ -304,9 +300,9 @@ diceImageView2.image = #imageLiteral(resourceName: "DiceTwo")
 
 ---
 
-# 15. Comments in Code
+## 15. Comments in Code
 
-## Purpose
+### Purpose
 
 Used to leave notes for yourself or teammates.
 
@@ -330,7 +326,7 @@ Example:
 
 ---
 
-# 16. Key Takeaways
+## Key Takeaways
 
 * Storyboards design the UI visually
 * Swift code changes UI dynamically

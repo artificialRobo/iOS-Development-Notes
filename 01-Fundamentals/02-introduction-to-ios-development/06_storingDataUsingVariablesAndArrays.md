@@ -8,9 +8,9 @@
 
 ---
 
-# Arrays in Swift
+## Arrays in Swift
 
-## What is an Array?
+### What is an Array?
 
 * An **Array** is an ordered collection of items.
 * In this app, the array stores all six dice images.
@@ -30,7 +30,7 @@ let diceArray = [
 
 ---
 
-# Types of Brackets in Swift
+## Types of Brackets in Swift
 
 | Bracket Type | Purpose                                     |
 | ------------ | ------------------------------------------- |
@@ -40,9 +40,9 @@ let diceArray = [
 
 ---
 
-# Accessing Array Items
+## Accessing Array Items
 
-## Array Indexing
+### Array Indexing
 
 * Arrays use **index positions**.
 * Swift starts counting from **0**.
@@ -66,9 +66,9 @@ diceImageView1.image = diceArray[1]
 
 ---
 
-# Variables
+## Variables
 
-## Creating a Variable
+### Creating a Variable
 
 Variables store data that can change.
 
@@ -89,9 +89,9 @@ diceImageView1.image = diceArray[leftDiceNumber]
 
 ---
 
-# Updating Variable Values
+## Updating Variable Values
 
-## Increasing the Dice Number
+### Increasing the Dice Number
 
 ```swift
 leftDiceNumber = leftDiceNumber + 1
@@ -105,7 +105,7 @@ What happens:
 
 ---
 
-# Program Flow Example
+## Program Flow Example
 
 ### First Press
 
@@ -123,7 +123,7 @@ And so on.
 
 ---
 
-# Array Out of Range Error
+## Array Out of Range Error
 
 Problem:
 
@@ -136,9 +136,9 @@ This is called:
 
 ---
 
-# Variable Scope
+## Variable Scope
 
-## Wrong Placement
+### Wrong Placement
 
 If the variable is created inside the button action:
 
@@ -170,7 +170,7 @@ Benefits:
 
 ---
 
-# Using Print Statements for Debugging
+## Using Print Statements for Debugging
 
 Example:
 
@@ -192,16 +192,16 @@ Useful for:
 
 ---
 
-# Right Dice Challenge
+## Right Dice Challenge
 
-## Goal
+### Goal
 
 * Left dice increases
 * Right dice decreases
 
 ---
 
-# Right Dice Variable
+## Right Dice Variable
 
 ```swift
 var rightDiceNumber = 5
@@ -221,7 +221,7 @@ rightDiceNumber = rightDiceNumber - 1
 
 ---
 
-# Final Behavior
+## Final Behavior
 
 When pressing Roll:
 
@@ -238,31 +238,31 @@ Eventually:
 
 ---
 
-# Key Concepts Learned
+## Key Concepts Learned
 
-## Arrays
+### Arrays
 
 * Ordered collections
 * Access items using indexes
 
-## Indexing
+### Indexing
 
 * Starts from `0`
 
-## Variables
+### Variables
 
 * Store changeable values
 * Use `var`
 
-## Scope
+### Scope
 
 * Variables outside functions retain values
 
-## Debugging
+### Debugging
 
 * Use `print()` statements
 * String interpolation improves readability
 
-## Updating UI
+### Updating UI
 
 * Image views can change dynamically using arrays and variables

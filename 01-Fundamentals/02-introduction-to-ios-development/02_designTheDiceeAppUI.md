@@ -86,7 +86,7 @@ Use the **Color Picker/Dropper Tool** to match the button color with the dice ba
 
 ---
 
-# Key Xcode Concepts Learned
+## Key Xcode Concepts Learned
 
 * Using `Main.storyboard`
 * Adding UI elements from the Object Library
@@ -99,7 +99,7 @@ Use the **Color Picker/Dropper Tool** to match the button color with the dice ba
 
 ---
 
-# Next Step
+## Next Step
 
 The next lesson will focus on:
 

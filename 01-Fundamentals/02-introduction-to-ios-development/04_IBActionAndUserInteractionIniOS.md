@@ -21,9 +21,9 @@
 
 ---
 
-# 2. Detecting User Interaction with IBAction
+## 2. Detecting User Interaction with IBAction
 
-## Problem
+### Problem
 
 * The **Roll button** does not need its appearance changed.
 * Instead, we need to:
@@ -31,11 +31,11 @@
   * Detect when the user taps it
   * Run code in response
 
-## Solution: IBAction
+### Solution: IBAction
 
 * **IBAction** connects a UI element to code that runs after user interaction.
 
-### Difference Between IBOutlet and IBAction
+#### Difference Between IBOutlet and IBAction
 
 | IBOutlet                   | IBAction                        |
 | -------------------------- | ------------------------------- |
@@ -44,21 +44,21 @@
 
 ---
 
-# 3. Creating an IBAction
+## 3. Creating an IBAction
 
-## Steps
+### Steps
 
 1. Hold **Control**
 2. Click and drag from the button into the code
 3. Drop above the closing curly brace
 
-## Important Settings
+### Important Settings
 
-### Connection Type
+#### Connection Type
 
 * Automatically set to **Action**
 
-### Event
+#### Event
 
 * Usually:
 
@@ -67,7 +67,7 @@
 
   * User taps and releases inside button boundaries
 
-### Naming Convention
+#### Naming Convention
 
 * Name should describe the action/event.
 * Example:
@@ -76,7 +76,7 @@
 rollButtonPressed
 ```
 
-### Sender Type
+#### Sender Type
 
 * Set to:
 
@@ -86,7 +86,7 @@ UIButton
 
 ---
 
-# 4. Generated IBAction Code
+## 4. Generated IBAction Code
 
 Example:
 
@@ -102,26 +102,26 @@ Example:
 
 ---
 
-# 5. Using Print Statements
+## 5. Using Print Statements
 
-## Syntax
+### Syntax
 
 ```swift
 print("button got tapped")
 ```
 
-## Notes
+### Notes
 
 * Text must be inside **double quotes** in Swift.
 * Used for debugging/testing.
 
-### Purpose
+#### Purpose
 
 * Prints messages to the **debug console**.
 
 ---
 
-# 6. Testing the Button
+## 6. Testing the Button
 
 When the app runs:
 
@@ -138,9 +138,9 @@ button got tapped
 
 ---
 
-# 7. Understanding Flow Between UI and Code
+## 7. Understanding Flow Between UI and Code
 
-## IBOutlet
+### IBOutlet
 
 * Direction:
 
@@ -150,7 +150,7 @@ Code → User Interface
 
 * Used when code changes UI.
 
-## IBAction
+### IBAction
 
 * Direction:
 
@@ -162,9 +162,9 @@ User Interface → Code
 
 ---
 
-# 8. Changing Dice Images on Button Press
+## 8. Changing Dice Images on Button Press
 
-## Original Behavior
+### Original Behavior
 
 Inside `viewDidLoad`:
 
@@ -175,9 +175,9 @@ These run only once when the view loads.
 
 ---
 
-# 9. Updating Images Inside IBAction
+## 9. Updating Images Inside IBAction
 
-## Example
+### Example
 
 ```swift
 diceImageView1.image = UIImage(imageLiteralResourceName: "DiceFour")
@@ -185,7 +185,7 @@ diceImageView1.image = UIImage(imageLiteralResourceName: "DiceFour")
 diceImageView2.image = UIImage(imageLiteralResourceName: "DiceFour")
 ```
 
-## Result
+### Result
 
 * When the Roll button is tapped:
 
@@ -193,19 +193,19 @@ diceImageView2.image = UIImage(imageLiteralResourceName: "DiceFour")
 
 ---
 
-# 10. Key Concept
+## 10. Key Concept
 
-## `viewDidLoad`
+### `viewDidLoad`
 
 * Runs automatically when the screen loads.
 
-## IBAction
+### IBAction
 
 * Runs only after the user performs the connected action.
 
 ---
 
-# 11. Important Programming Concept
+## 11. Important Programming Concept
 
 The lesson emphasizes:
 
@@ -225,7 +225,7 @@ diceImageView1.image = DiceFour
 
 ---
 
-# 12. Additional Topics Mentioned
+## Additional Topics Mentioned
 
 Next lesson covers:
 

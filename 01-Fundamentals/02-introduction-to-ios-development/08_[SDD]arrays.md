@@ -16,7 +16,7 @@ let names = ["Angela", "Jack", "Philip"]
 
 ---
 
-# Accessing Items in an Array
+## Accessing Items in an Array
 
 You access items using:
 
@@ -38,7 +38,7 @@ This retrieves:
 
 ---
 
-# Array Index Positions
+## Array Index Positions
 
 Swift arrays start counting from **0**.
 
@@ -52,7 +52,7 @@ This is called **zero-based indexing**.
 
 ---
 
-# Storing Arrays in Variables
+## Storing Arrays in Variables
 
 Arrays can be stored inside variables just like other data types.
 
@@ -76,7 +76,7 @@ Output:
 
 ---
 
-# Visualizing Arrays
+## Visualizing Arrays
 
 Think of an array like:
 
@@ -93,7 +93,7 @@ Example:
 
 ---
 
-# Challenge Exercise Summary
+## Challenge Exercise Summary
 
 Given:
 
@@ -110,7 +110,7 @@ Create another array called `computedNumbers` where:
 
 ---
 
-# Multiplication in Swift
+## Multiplication in Swift
 
 Swift uses the `*` symbol for multiplication.
 
@@ -128,7 +128,7 @@ Output:
 
 ---
 
-# Expected Logic
+## Expected Logic
 
 Using:
 
@@ -148,7 +148,7 @@ Without manually typing the numbers directly.
 
 ---
 
-# Example Solution
+## Example Solution
 
 ```swift
 var numbers = [45, 73, 195, 53]
@@ -164,7 +164,7 @@ print(computedNumbers)
 
 ---
 
-# Key Takeaways
+## Key Takeaways
 
 * Arrays store multiple related values.
 * Arrays use square brackets `[ ]`.
