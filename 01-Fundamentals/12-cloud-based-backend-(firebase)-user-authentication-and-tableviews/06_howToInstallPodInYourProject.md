@@ -1,6 +1,6 @@
 # Notes: Installing Your First CocoaPod in an Xcode Project
 
-### Objective
+## Objective
 
 Learn how to:
 
