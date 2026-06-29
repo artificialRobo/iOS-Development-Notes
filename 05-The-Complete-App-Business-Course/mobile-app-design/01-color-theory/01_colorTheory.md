@@ -114,7 +114,7 @@
 * Financial institutions
 
 <p align="center">
-  <img src="assets/blueColorAds.webp" alt="" width="auto">
+  <img src="assets/blueColorAds.png" alt="" width="auto">
 </p>
 
 **Purpose:**
