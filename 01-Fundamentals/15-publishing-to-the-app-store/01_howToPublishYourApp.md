@@ -149,7 +149,7 @@ Provide:
 
 ## 9. Apple Review Guidelines
 
-* Read Apple's **App Review Guidelines** before submitting.
+* Read Apple's [**App Review Guidelines**](https://developer.apple.com/app-store/review/guidelines/) before submitting.
 * Avoid uploading:
 
   * Test apps
