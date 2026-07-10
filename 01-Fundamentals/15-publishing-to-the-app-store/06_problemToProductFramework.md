@@ -1,6 +1,6 @@
 # Notes: Problem-to-Product Framework
 
-### 1. Problem-First Product Thinking
+## 1. Problem-First Product Thinking
 
 **Question:** *Should I build software at all?*
 
@@ -14,9 +14,7 @@ Focus:
 
 **Outcome:** You have validated that software is worth building.
 
-⬇️
-
-### 2. Start with the Problem and Desired Outcomes
+## 2. Start with the Problem and Desired Outcomes
 
 **Question:** *What should the software do?*
 
@@ -31,9 +29,7 @@ Focus:
 
 **Outcome:** You have a clear product plan and MVP.
 
-⬇️
-
-### 3. Building Your Own App or Startup
+## 3. Building Your Own App or Startup
 
 **Question:** *How should I build and grow it?*
 
